@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@magicul/next-google-tag-manager@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.npmjs.org/@magicul/next-google-tag-manager/-/next-google-tag-manager-1.0.0.tgz#02c00374f4043797d9b161fb6e07ea759246cbdf"
+  integrity sha512-u35lvUHg/RNWUfp1lgd9zHUFsyALN9dxArZeosHnTA7I9vBJpAxs7M81vRzH3tkpgmrtYWtNvTUGNpbknsTwIA==
+
 "@next/env@13.4.13":
   version "13.4.13"
   resolved "https://registry.npmjs.org/@next/env/-/env-13.4.13.tgz#50250cec7626904b93a4a934933d6a747763259d"

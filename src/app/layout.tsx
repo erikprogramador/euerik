@@ -3,6 +3,7 @@ import './globals.css';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import { Suspense } from 'react';
+import GoogleTagManager from '@magicul/next-google-tag-manager';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -23,9 +24,7 @@ export default function RootLayout({
         <link rel="shortcut icon" href="/favicon.png" type="image/x-icon" />
       </head>
       <body className={inter.className}>
-        <Suspense>
-          <Analytics />
-        </Suspense>
+        <GoogleTagManager />
 
         {children}
       </body>

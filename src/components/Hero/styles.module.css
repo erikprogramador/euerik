@@ -31,6 +31,10 @@
   margin-top: 1rem;
 }
 
+.content p strong {
+  color: #90bdf4;
+}
+
 .contentContainer a {
   color: #34b78f;
   font-weight: 600;
